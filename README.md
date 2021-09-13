@@ -18,9 +18,8 @@ Add using TobaFunction; in you Class Project
 # Base64 Decode
 
 ```csharp
-using (var x = new X())
-{
-    var y = "test";
-    var z = "test";
-}
+Function function = new Function();
+var test = function.Base64Decode("aGV5IHRoaXMgdGVzdA==");
+Console.WriteLine(test);
+Console.ReadLine();
 ```
