@@ -23,3 +23,12 @@ var test = function.Base64Decode("aGV5IHRoaXMgdGVzdA==");
 Console.WriteLine(test);
 Console.ReadLine();
 ```
+
+# Calculate Otp Code
+
+```csharp
+Function function = new Function();
+var test = function.CalculateOtpCode("HelloWorld");
+Console.WriteLine(test);
+Console.ReadLine();
+```
