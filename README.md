@@ -8,7 +8,7 @@ Add using TobaFunction; in you Class Project
 # Base64 Encode
 
     ```csharp
-    Function function = new Function();
+            Function function = new Function();
             var test = function.Base64Encode("hey this test");
             Console.WriteLine(test);
             Console.ReadLine();
