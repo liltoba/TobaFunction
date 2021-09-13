@@ -223,3 +223,27 @@ Console.WriteLine(test);
 Console.ReadLine();
 ```****
 
+# Generate Otp Key
+
+```csharp
+Function function = new Function();
+var test = function.GenerateOtpKey(1);
+Console.WriteLine(test);
+Console.ReadLine();
+```****
+# Generate Otp Key
+
+```csharp
+Function function = new Function();
+var test = function.GenerateOtpKey(1);
+Console.WriteLine(test);
+Console.ReadLine();
+```****
+# Generate Otp Key
+
+```csharp
+Function function = new Function();
+var test = function.GenerateOtpKey(1);
+Console.WriteLine(test);
+Console.ReadLine();
+```****
