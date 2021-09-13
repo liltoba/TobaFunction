@@ -1,9 +1,14 @@
 # 🏅TobaFunction🏅
 🔥TobaFunction Is Best Library For Create Account Checker in C#🔥
 
-# How To Work
-Add Library in you c# project
-Add using TobaFunction; in you Class Project
+
+# 😎This Library Have All Function OpenBullet For Making Checker in c#😎
+You Can Use All Function in Openbullet For Checker
+Working with this library is very simple
+
+# 👨‍🏫How To Work👨‍🏫
+Add Library in your Reference c# Project😊
+Add using TobaFunction; in you Class Project And Done. You can use all the following codes😉
 
 # Base64 Encode
 
@@ -221,29 +226,76 @@ Function function = new Function();
 var test = function.GenerateOtpKey(1);
 Console.WriteLine(test);
 Console.ReadLine();
-```****
+```
 
-# Generate Otp Key
-
-```csharp
-Function function = new Function();
-var test = function.GenerateOtpKey(1);
-Console.WriteLine(test);
-Console.ReadLine();
-```****
-# Generate Otp Key
+# Generate GUID
 
 ```csharp
 Function function = new Function();
-var test = function.GenerateOtpKey(1);
-Console.WriteLine(test);
-Console.ReadLine();
-```****
-# Generate Otp Key
+var test = function.GenerateGUID();
+```
+
+# URL Encode
 
 ```csharp
 Function function = new Function();
-var test = function.GenerateOtpKey(1);
-Console.WriteLine(test);
-Console.ReadLine();
-```****
+var test = function.URLEncode("https://www.google.com/");
+```
+
+# URL Decode
+
+```csharp
+Function function = new Function();
+var test = function.URLDecode("https%3a%2f%2fwww.google.com%2f");
+```
+
+
+# Unescape
+
+```csharp
+Function function = new Function();
+var test = function.Unescape("Your Unescape");
+```
+
+
+# SHA1
+
+```csharp
+Function function = new Function();
+var test = function.SHA1("Your Test");
+```
+
+# Regex Replace
+
+```csharp
+Function function = new Function();
+var test = function.RegexReplace("Your Text" ,"Your Regex");
+```
+
+# Regex Match
+
+```csharp
+Function function = new Function();
+var test = function.RegexMatch("");
+```
+
+# Number To Words
+
+```csharp
+Function function = new Function();
+var test = function.NumberToWords("1");
+```
+
+# MD5
+
+```csharp
+Function function = new Function();
+var test = function.MD5("MD5");
+```
+
+# Ntlm
+
+```csharp
+Function function = new Function();
+var test = function.Ntlm("Ntlm");
+```
