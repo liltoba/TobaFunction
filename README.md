@@ -14,11 +14,13 @@ Add using TobaFunction; in you Class Project
             Console.ReadLine();
     ```
     
+    
 # Base64 Decode
 
-    ```csharp
-    Function function = new Function();
-            var test = function.Base64Decode("aGV5IHRoaXMgdGVzdA==");
-            Console.WriteLine(test);
-            Console.ReadLine();
-    ```
+```csharp
+using (var x = new X())
+{
+    var y = "test";
+    var z = "test";
+}
+```
