@@ -163,3 +163,63 @@ var test = function.EasyEncrypt("My Test Text");
 Console.WriteLine(test);
 Console.ReadLine();
 ```
+# Easy Decrypt
+
+```csharp
+Function function = new Function();
+var test = function.EasyDecrypt("IQSs9SngVWsn1YCZXNJc/eBDFUL1yXPfvKmrB7uVmV0=");
+Console.WriteLine(test);
+Console.ReadLine();
+```
+
+# To Upper case
+
+```csharp
+Function function = new Function();
+var test = function.ToUppercase("test upper");
+Console.WriteLine(test);
+Console.ReadLine();
+```
+# To Lower case
+
+```csharp
+Function function = new Function();
+var test = function.ToLowercase("TEST LOWER");
+Console.WriteLine(test);
+Console.ReadLine();
+```
+# Random Number
+
+```csharp
+Function function = new Function();
+var test = function.RandomNum(1 , 100);
+Console.WriteLine(test);
+Console.ReadLine();
+```
+# Random String
+
+```csharp
+Function function = new Function();
+var test = function.RandomString("abcdefg",100);
+Console.WriteLine(test);
+Console.ReadLine();
+```
+
+# Random UserAgent
+
+```csharp
+Function function = new Function();
+var test = function.GetRandomUA();
+Console.WriteLine(test);
+Console.ReadLine();
+```
+
+# Generate Otp Key
+
+```csharp
+Function function = new Function();
+var test = function.GenerateOtpKey(1);
+Console.WriteLine(test);
+Console.ReadLine();
+```****
+
